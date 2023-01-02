@@ -1,0 +1,64 @@
+header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.conteiner__header {
+    display: flex;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.site-nav__link.current {
+    color: $color-accent;
+}
+
+.site-nav__list {
+    display: flex;
+    margin-right: 318px;
+}
+.site-nav__item {
+    margin-right: 50px;
+    &:last-child {
+    margin-right: 0px;}
+}
+
+.site-nav__link {
+    display: block;
+    color: $color-primary;
+    @include nav-font ();
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+    &:hover, &:focus {
+    outline: none;
+    color: $color-accent;}
+}
+
+
+.contacts {
+    display: flex;
+}
+.contacts__item {
+    margin-right: 30px;
+
+    &:last-child {
+    margin-right: 0px;
+    }
+}
+.contacts__link {
+    display: block;
+    color: $color-secondary;
+    @include nav-font ();
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+
+    &:hover, &:focus {
+    outline: none;
+    color: $color-accent;
+    }
+}

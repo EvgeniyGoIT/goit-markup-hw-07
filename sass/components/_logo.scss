@@ -1,0 +1,25 @@
+.site-nav__logo {
+    display: flex;
+    margin-right: 93px;
+    align-items: center;
+
+    color: $color-primary;
+    font-family: 'Raleway', cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;    
+}
+
+.web {
+    color: #2196F3;
+   }
+
+.footer__logo {
+    display: flex;
+    margin-bottom: 20px;
+    color: $color--accent-text;
+    font-family: 'Raleway', cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;     
+}
