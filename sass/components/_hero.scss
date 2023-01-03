@@ -11,14 +11,17 @@
     background-position: center;
 }
 .hero__title {
+    color:$color--accent-text;
     margin-bottom: 30px;
-    @include hero-textFont ();
+    text-transform: uppercase;
+    text-align: center;
+    @include general-font (0.06em, 1.36, 44px, 900);
 }
 
 .hero__button {
     color: $color--accent-text;
     background-color: $color-accent;
-    @include button-font ();
+    @include general-font (0.06em, 1.88, 16px, 700);
     cursor: pointer;
     border: 1px transparent;
     border-radius: 4px;

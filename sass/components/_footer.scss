@@ -25,14 +25,10 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-
-.footer__info {
-    margin-right: 93px;
-}
 .footer__info-text{
     margin-bottom: 20px;
     color: $color--accent-text;
-    @include h3-font ();
+    @include general-font (0.03em, 1.14, 14px, 700);
 }
 .footer__info-list {
     display: flex;
@@ -67,11 +63,14 @@
     width: 20px;
     fill: currentColor
 }
+.footer__connection {
+    margin-left: auto;
+}
 
 .connection__text {
     margin-bottom: 20px;
     color: $color--accent-text;
-    @include h3-font ();
+    @include general-font (0.03em, 1.14, 14px, 700);
 }
 .connection__input-box {
     display: flex;
@@ -97,7 +96,7 @@
         align-items: center;
         color: $color--accent-text;
         background-color:$color-accent;
-        @include button-font ();
+        @include general-font (0.06em, 1.88, 16px, 700);
         cursor: pointer;
         border: 1px transparent;
         border-radius: 4px;

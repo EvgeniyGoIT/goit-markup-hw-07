@@ -16,9 +16,10 @@ html {
 }
 
 body {
+    font-family: $font-primary;
     color: $color-secondary;
 
-    @include general-font ();
+    @include general-font (0.03em, 1.71, 14px, 400);
 }
 
 h1, h2, h3, h4, p {

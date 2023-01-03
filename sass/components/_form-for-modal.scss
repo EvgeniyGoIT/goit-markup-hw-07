@@ -13,7 +13,8 @@
         padding-right: 12px;
         padding-bottom: 12px;
         padding-left: 42px;
-        @include form__input ();
+        @include general-font (0.01em, 1.17, 12px, 400);
+        font-style: normal;
         
     }
     .form__field {
@@ -37,7 +38,7 @@
         width: 100%;
         color: $color-primary;
         margin-bottom: 12px;
-        @include form__text ();
+        @include general-font (0.03em, 1.15, 20px, 700);
         text-align: center;
     }
     textarea {
@@ -71,7 +72,7 @@
     .form__name-label { 
         display: block;
         margin-bottom: 4px;
-        @include form__input ();
+        @include general-font (0.01em, 1.17, 12px, 400);
     }
     .form__button-box {
         display: flex;
@@ -83,7 +84,7 @@
         color: #FFFFFF;
         background: #188CE8;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        @include button-font ();
+        @include general-font (0.06em, 1.88, 16px, 700);
         cursor: pointer;
         border: 1px transparent;
         border-radius: 4px;
@@ -136,13 +137,13 @@
     }
     .form__conditions {
         display: flex;
-        align-items: center;
         color: $color-secondary;
         width: 423px;
-        margin-right: auto;
-        margin-left: auto;
         margin-bottom: 30px;
         cursor: pointer;
+        margin-right: auto;
+        margin-left: auto;
+        @include general-font (0.03em, 1.71, 14px, 400);
 
         &:focus-within .form__new-checkbox,
         &:hover .form__new-checkbox { 

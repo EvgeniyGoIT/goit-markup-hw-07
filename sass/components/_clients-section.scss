@@ -2,7 +2,7 @@
     text-align: center;
     color:$color-primary;
     margin-bottom: 50px;
-    @include title-section ();
+    @include general-font (0.03em, 1.17, 36px, 700);
 }
 .clients__list {
     display: flex;

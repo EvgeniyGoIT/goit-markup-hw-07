@@ -6,7 +6,7 @@
     text-align: center;
     color: $color-primary;
     margin-bottom: 50px;
-    @include title-section ();
+    @include general-font (0.03em, 1.17, 36px, 700);
 }
 .team-section__list {
     display: flex;
@@ -33,7 +33,7 @@
     color: $color-primary;
 
     text-align: center;
-    @include h3-font ();
+    @include general-font (0.03em, 1.14, 14px, 700);
 }
 .info__jod {
     margin-bottom: 16px;

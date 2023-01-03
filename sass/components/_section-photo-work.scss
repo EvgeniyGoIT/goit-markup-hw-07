@@ -1,8 +1,12 @@
+.section__photo-work {
+    padding-top: 0px;
+}
+
 .photo-work__title {
     text-align: center;
     margin-bottom: 50px;
     color: $color-primary;
-    @include title-section ();
+    @include general-font (0.03em, 1.17, 36px, 700);
 }
 .photo-work {
     display: flex;
@@ -19,7 +23,7 @@
     z-index: 2;
 
     color: #FFFFFF;
-    @include h3-font ();
+    @include general-font (0.03em, 1.14, 14px, 700);
 }
 
 .photo-work__item::after {
